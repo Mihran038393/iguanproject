@@ -1,0 +1,26 @@
+.comContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.comContainer textarea {
+    width: 100% !important;
+
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0;
+    font-family: inherit;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+}
+
+.comContainer img {
+    margin-right: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}

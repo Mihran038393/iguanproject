@@ -1,0 +1,54 @@
+#msgcnt + .rightSide {
+    display: none;
+}
+#msgcnt {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.bellIcon {
+    color: #088dcd;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.msgHead {
+    display: flex;
+    align-items: center;
+}
+.msgHead h3 {
+    font-weight: 500;
+    border-bottom: solid 2px #088dcd;
+    margin-bottom: 10px;
+}
+.chatsList {
+    list-style-type: none;
+    width: 20%;
+    border-right: solid 1px rgb(209, 209, 209);
+}
+.chat {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: solid 1px rgb(209, 209, 209);
+}
+.chat img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.msgContainer {
+    margin-top: 20px;
+}
+.chat h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.msgImgCnt {
+    position: relative;
+}
+
+.msgImgCnt span {
+    right: 3px;
+    bottom: 0;
+}

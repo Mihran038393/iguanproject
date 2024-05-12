@@ -1,0 +1,129 @@
+body {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #545454;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.welcome {
+    background-color: #1fb6ff;
+    height: 100vh;
+    text-align: center;
+    background: #1fb6ff none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:
+        roboto,
+        segoe ui;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.welcome-logo span {
+    background: #0a98dc none repeat scroll 0 0;
+    border: 16px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    content: '';
+    height: 180px;
+    left: -42px;
+    position: absolute;
+    top: 20px;
+    width: 180px;
+    z-index: -1;
+    font-family: hobo std;
+    font-size: 200px;
+    position: relative;
+    box-sizing: border-box;
+}
+.land-meta {
+    margin-top: 25%;
+}
+.loginFieldsArea {
+    background: #f4f7f6 none repeat scroll 0 0;
+    float: left;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.loginFields {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 35px #e2e2e2;
+    display: block;
+    float: none;
+    left: 50%;
+    padding: 35px 55px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 505px;
+}
+h2 {
+    color: #004288;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.loginFields p {
+    color: #878787;
+    font-size: 14px;
+    line-height: 26px;
+}
+.loginFields a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.inputField {
+    margin-top: 20px;
+    width: 60vh;
+}
+.checkbox {
+    margin-top: 20px;
+    display: flex;
+}
+
+.checkbox label {
+    margin-top: 0;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+.ch {
+    margin-right: 10px;
+}
+.forgotPwd {
+    float: right;
+    font-size: 14px;
+}
+
+.btnContainer {
+    margin-left: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.btn {
+    margin-right: 20px !important;
+    font-size: 25px;
+    border-radius: 10px !important;
+}

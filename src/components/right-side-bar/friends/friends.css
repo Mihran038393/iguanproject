@@ -1,0 +1,52 @@
+#fr {
+    position: sticky;
+    top: 60px;
+    height: 590px;
+}
+
+#fr img {
+    border-radius: 50%;
+}
+.friendSearch {
+    border: 1px solid #eaeaea;
+    color: #575757;
+    font-size: 14px;
+    padding: 5px 10px;
+    width: 100%;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.friendSearch:focus {
+    outline: none;
+}
+.friendsUl {
+    margin-top: 20px;
+    list-style-type: none;
+    height: 420px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.friendsUl:hover {
+    overflow-y: auto;
+}
+
+.friendsList {
+    display: flex;
+    margin-bottom: 20px;
+}
+.friendsMeta {
+    margin-left: 25px;
+}
+.friendsMeta p {
+    font-size: 12px;
+    font-style: italic;
+}
+.frlstIcon {
+    position: relative;
+    padding: 0px 2px 2px 0px;
+}

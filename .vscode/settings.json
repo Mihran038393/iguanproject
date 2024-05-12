@@ -1,0 +1,23 @@
+{
+    "editor.tabSize": 4, // Set tab size to 4 spaces
+    "editor.detectIndentation": true, // Detect indentation from content
+    "editor.formatOnSave": true, // Format code automatically on save
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Use Prettier as the default formatter
+
+    // Configure Prettier settings (optional)
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    
+    // Optional: Enable specific language formatting
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // Add more language specific settings as needed
+}

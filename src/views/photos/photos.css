@@ -1,0 +1,18 @@
+.photo {
+    width: 177px;
+    height: 170px;
+    margin: 3px;
+    cursor: pointer;
+}
+#ph .ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#ph {
+    text-align: center;
+    padding: 10px 0px !important;
+
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    gap: 7px;
+}

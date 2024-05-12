@@ -1,0 +1,79 @@
+#pstr {
+    margin-bottom: 20px;
+    display: flex;
+}
+.postFileInp {
+    cursor: pointer;
+    display: none;
+}
+
+.attUl {
+    position: relative;
+    justify-content: flex-end;
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 0px;
+    margin-bottom: 0;
+}
+
+.posterForm textarea {
+    width: 100% !important;
+
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+.posterForm {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    border: solid 1px #eee;
+    padding: 3px;
+    background-color: white;
+}
+#pstr img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.attachments {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: end;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.attachments button {
+    margin-top: 0px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 65px;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.attachments li {
+    margin-right: 10px;
+}
+.posterIcon {
+    color: #373b3f;
+    cursor: pointer;
+}
+.attachments button {
+    background-color: #088dcd;
+}
+.attachments button:active {
+    background-color: lightslategray;
+}

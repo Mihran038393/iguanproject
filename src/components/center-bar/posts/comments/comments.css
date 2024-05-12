@@ -1,0 +1,51 @@
+.comUserDetails {
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border: solid 1px #ede9e9;
+}
+.commentList ul {
+    list-style-type: none;
+}
+
+.commentList {
+    margin-top: 25px;
+}
+
+.comListItem {
+    display: flex;
+}
+.nameContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comListItem img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.nameContainer h5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.nameContainer span {
+    color: #999;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.replyIcon {
+    color: #088dcd;
+    cursor: pointer;
+}
+
+.reply {
+    display: block;
+    margin-left: 60px;
+}

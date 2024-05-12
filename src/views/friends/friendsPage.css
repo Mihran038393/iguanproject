@@ -1,0 +1,94 @@
+.friendsPageList {
+    list-style-type: none;
+}
+
+.friendContainer {
+    display: flex;
+    margin-bottom: 20px;
+    border: solid 1px #eaf1f6;
+    padding: 20px;
+    align-items: center;
+}
+.friendContainer:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+.friendContainer img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.friendsPageMeta h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.friendsPageMeta span {
+    font-size: 14px;
+    color: #088dcd;
+}
+
+.unfriend {
+    background-color: lightslategray;
+    color: rgba(255, 255, 255, 0.911);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+
+.addFriend {
+    margin-right: 0;
+    background-color: #088dcd;
+    color: rgba(255, 255, 255, 0.911);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+.add-friend {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.frNav {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.frNav a {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.frNav a:hover {
+    color: rgb(0, 110, 255);
+}
+
+.frNav a.active {
+    color: rgb(0, 110, 255);
+    border-bottom: 2px solid rgb(0, 110, 255);
+}
+
+.myFriends {
+    margin-right: 40px;
+}
+.frNav span {
+    color: lightslategray;
+    border: solid 1px rgb(230, 230, 230);
+    border-radius: 30%;
+    padding: 0px 5px;
+    margin-left: 5px;
+}

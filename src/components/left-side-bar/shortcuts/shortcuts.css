@@ -1,0 +1,41 @@
+#sht {
+    position: sticky;
+    max-height: 240px;
+}
+.shortCuts_item {
+    color: #929292;
+    width: auto;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.shortCuts_item a {
+    margin-right: 20px;
+}
+.shortCuts_item:hover {
+    color: rgb(0, 110, 255);
+}
+.hContainer {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(0, 110, 255);
+    width: 70px;
+}
+.hContainer span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 18px;
+    color: #373b3f;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.shortCuts_item a {
+    display: flex;
+}
+
+.shortCuts_item p {
+    margin-left: 15px;
+}

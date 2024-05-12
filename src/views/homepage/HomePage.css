@@ -1,0 +1,188 @@
+.userCover {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.coverImage {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    height: auto;
+    max-width: 100%;
+}
+
+.userImage {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    margin-bottom: 2px;
+}
+
+.userImage img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.editPhoto {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    bottom: 15%;
+    color: #fff;
+    left: 22%;
+    padding: 5px;
+    position: absolute;
+    z-index: 9;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    display: inline-flex;
+    font-size: small;
+}
+
+.editPhoto:hover {
+    background-color: #00000000;
+    border: 1px solid #0095f8;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.fileContainer [type='file'] {
+    display: none;
+    position: absolute;
+
+    width: 100%;
+}
+.fileContainer {
+    color: white;
+    cursor: pointer;
+}
+
+.editPhoto .i {
+    margin-right: 5px;
+    color: white;
+}
+
+.addFriends {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 30px;
+    font-size: medium;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #0095f8;
+    border: solid 1px #0095f8;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+.addFriends:hover {
+    background-color: none;
+    color: #0095f8;
+    border-color: #0050fd;
+    border: solid 1px rgb(0, 89, 255);
+    background-color: #0095f800;
+}
+.addFriends:hover p {
+    color: #0095f8;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+.addFriends p {
+    color: #fff;
+}
+.friends {
+    display: inline-flex;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    padding: 0;
+    z-index: 1000;
+}
+.friends span {
+    margin-right: 10px;
+    color: #ffffff;
+}
+.userDetails {
+    position: relative;
+    height: 60px;
+    z-index: 100000;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+}
+.userInfo {
+    list-style-type: none;
+    position: absolute;
+    display: block;
+    margin-left: 20%;
+    margin-top: 5px;
+    text-align: right;
+}
+.userInfo h5 {
+    color: #088dcd;
+
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    vertical-align: super;
+}
+.userInfo span {
+    bottom: 14px;
+    color: #3a3a3a;
+    font-size: 10px;
+    line-height: 5px;
+
+    right: 0;
+}
+.pageNav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 33.5%;
+    margin-top: 8px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.pageNav li {
+    font-size: 13.5px;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.pageNav span:hover {
+    color: #0095f8;
+
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+.pageLink.active {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid 3px #0095f8;
+    color: #0095f8;
+}
