@@ -23,6 +23,7 @@ function App() {
 
     return (
         <div>
+            
             {!isHeaderExcluded && <Topbar />}
             <Routes>
                 <Route path="/" element={<HomePage />}>

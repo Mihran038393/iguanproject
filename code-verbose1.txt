@@ -1,0 +1,11 @@
+[284 zypak-helper] Using spawn strategy test 1 as set by environment
+Gtk-Message: 09:37:20.779: Failed to load module "xapp-gtk3-module"
+[284:0515/093721.368503:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[344:0515/093721.989001:WARNING:sandbox_linux.cc(400)] InitializeSandbox() called with multiple threads in process gpu-process.
+[90m[main 2024-05-15T05:37:22.148Z][0m [File Watcher (node.js)] Request to start watching: /home/mihran/.var/app/com.visualstudio.code/config/Code/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/mihran/.var/app/com.visualstudio.code/config/Code/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+[90m[main 2024-05-15T05:37:22.257Z][0m Sending env to running instance...
+[90m[main 2024-05-15T05:37:22.276Z][0m [File Watcher (node.js)] Started watching: '/home/mihran/.var/app/com.visualstudio.code/config/Code/User'
+[90m[main 2024-05-15T05:37:22.278Z][0m [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: /home/mihran/.var/app/com.visualstudio.code/config/Code/User/settings.json (error: Error: ENOENT: no such file or directory, stat '/home/mihran/.var/app/com.visualstudio.code/config/Code/User/settings.json')
+[90m[main 2024-05-15T05:37:22.530Z][0m Sent env to running instance. Terminating...
+[90m[main 2024-05-15T05:37:22.532Z][0m Lifecycle#kill()
+[90m[main 2024-05-15T05:37:22.532Z][0m Lifecycle#onWillShutdown.fire()

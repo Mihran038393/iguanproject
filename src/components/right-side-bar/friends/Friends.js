@@ -1,19 +1,23 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { friendsData } from '../../../store/friends-details';
 import './friends.css';
 
 export default function Friends() {
     const [friends, setFriends] = useState(friendsData);
+    const timeoutRef = useRef(0);
 
     const handleSearch = (e) => {
         const value = e.target.value;
-        const filteredFriends = friendsData.filter((friend) => {
-            return (
-                friend.name.toLowerCase().includes(value.toLowerCase()) ||
-                friend.surname.toLowerCase().includes(value.toLowerCase())
-            );
-        });
-        setFriends(filteredFriends);
+        if (timeoutRef.current) clearTimeout(timeoutRef.current);
+        timeoutRef.current = setTimeout(() => {
+            const filteredFriends = friendsData.filter((friend) => {
+                return (
+                    friend.name.toLowerCase().includes(value.toLowerCase()) ||
+                    friend.surname.toLowerCase().includes(value.toLowerCase())
+                );
+            });
+            setFriends(filteredFriends);
+        }, 1000);
     };
 
     return (
@@ -25,11 +29,7 @@ export default function Friends() {
                 className="friendSearch"
                 type="text"
                 placeholder="Search Contacts..."
-                onChange={(e) => {
-                    setTimeout(() => {
-                        handleSearch(e);
-                    }, '1000');
-                }}
+                onChange={handleSearch}
             ></input>
             <ul className="friendsUl">
                 {friends.map((item, index) => {

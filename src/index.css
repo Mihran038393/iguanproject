@@ -20,9 +20,7 @@
 }
 
 body {
-    font-family:
-        roboto,
-        segoe ui;
+    font-family: 'roboto', 'segoe ui';
     margin: 0 !important;
 
     color: #212529;

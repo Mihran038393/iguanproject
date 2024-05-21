@@ -6,8 +6,11 @@ import { FaShareAltSquare } from 'react-icons/fa';
 import './post.css';
 import Commenter from './comments/commenter/commenter';
 import Comments from './comments/comments';
+import { useSelector } from 'react-redux';
 
-export default function Post({ posts }) {
+export default function Post() {
+    const posts = useSelector((state) => state.posts.posts);
+
     return (
         <>
             {posts.map((post, index) => {
@@ -26,7 +29,7 @@ export default function Post({ posts }) {
                         <img src={post.postImage} id="pstImg" />
                         <div className="postInfo">
                             <ul>
-                                <li>
+                                <li id={index}>
                                     <label>
                                         <BsEye className="infoIcon" />
                                         <p className="infoData">
@@ -34,7 +37,7 @@ export default function Post({ posts }) {
                                         </p>
                                     </label>
                                 </li>
-                                <li>
+                                <li id={index}>
                                     <label>
                                         <FaRegComments className="infoIcon" />
                                         <p className="infoData">
@@ -42,13 +45,13 @@ export default function Post({ posts }) {
                                         </p>
                                     </label>
                                 </li>
-                                <li>
+                                <li id={index}>
                                     <label>
                                         <IoIosHeartEmpty className="infoIcon" />
                                         <p className="infoData">{post.likes}</p>
                                     </label>
                                 </li>
-                                <li>
+                                <li id={index}>
                                     <label id="dsl">
                                         <RiDislikeLine className="infoIcon" />
                                         <p className="infoData">
@@ -64,7 +67,7 @@ export default function Post({ posts }) {
                         </div>
                         <p className="postText">{post.postText}</p>
                         <Comments comments={post.commentsData} />
-                        <Commenter />
+                        <Commenter id={post.userId} />
                     </div>
                 );
             })}
